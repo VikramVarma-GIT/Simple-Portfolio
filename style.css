@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+     font-family: "Jost", sans-serif;
+     background-color: beige;
+}
+
+/* Container  */
+
+.container{
+    padding: 50px;
+    background-color: beige;
+}
+
+/* Section One  */
+
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section-one__contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-one__name{
+    color: orange;
+}
+
+.section-one__role,.section-one__contact{
+    margin-top:10px ;
+}
+
+.section-one__contact{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0 7px 0 7px;    
+}
+
+/* Section Two  */
+
+.section-two{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Section Three  */
+
+.section-three{
+    background-color:cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 270px;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+.section-three__desc{
+    margin-top: 10px;
+    color: white;
+}
+
+/* SEction Four  */
+
+.section-four{
+    background-color: orange;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 630px;
+    height: 260px;
+    text-align: justify;
+    vertical-align:middle;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+
+/* Section Five  */
+
+.section-five{
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    margin-top: 20PX;
+}
+
+/* Contact Form  */
+
+.contact-form{
+    margin-top: 40px;
+}
+
+.contact-form__submit{
+    background-color: red;
+    padding: 5px 8px 5px 8px;
+    border: none;
+    border-radius:2px ;
+    box-shadow:black;
+
+}
+
+
+.contact-form__submit,.contact-form__input,.contact-form__textarea{
+    margin-top: 10px;
+}
+
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.contact-form__textarea{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
